@@ -1,5 +1,33 @@
+:root {
+    --bs-primary: #72968f;
+}
+
 header.masthead {
     background-image: url("../assets/img/header.jpg");
+}
+
+.btn-primary {
+    background-color: #72968f;
+    border-color: #668982;
+}
+
+.btn-primary.disabled {
+    background-color: #72968f;
+    border-color: #668982;
+}
+
+.masthead-heading {
+    background-color: rgba(59, 77, 18, 0.507);
+    padding-top: 2%;
+}
+
+.timeline>li .timeline-image {
+    background-color: #72968f;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #72968f;
 }
 
 #logoimg {
